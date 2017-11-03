@@ -1,19 +1,17 @@
 {
-  "name": "personal_website",
-  "version": "2.0.0",
-  "description": "Remade now that I know what I'm doing.",
+  "name": "data-visualization-project",
+  "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "dependencies": {
   	"express": "4.16.2",
   	"jquery": "3.2.1",
-  	"angular": "1.6.6",
-  	"angular-route": "1.6.6",
   	"popper.js": "1.11.0",
   	"bootstrap": "4.0.0-beta"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kris Goorhuis",
+  "author": "",
   "license": "ISC"
 }

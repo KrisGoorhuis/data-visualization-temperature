@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
-<html ng-app="personalWebsiteApp">
+<html>
 <head>
-	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
-	<link rel="stylesheet" href="fonts/font-mfizz-2.4.1/font-mfizz.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/custom.css">
+	<!-- <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="fonts/font-mfizz-2.4.1/font-mfizz.css"> -->
+	
+	<link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
@@ -13,31 +13,35 @@
     <meta name="viewport" content="initial-scale=1">
     <meta name="viewport" content="width=device-width">
 
-	<script src="scripts/jquery.js"></script>
-	<script src="scripts/popper.js"></script>
-	<script src="scripts/bootstrap.js"></script>
-
-	<script src="scripts/angular.js"></script>
-	<script src="scripts/controllers/main-controllers.js"></script>
-	<script src="scripts/directives/nav-directives.js"></script>
+    <script src="scripts/libraries/d3.js"></script>
+	<script src="scripts/libraries/jquery.js"></script>
+	<script src="scripts/d3-visualization/temperature.js"></script>
 
 	<script src="app.js"></script>
 </head>
 
 
 <body>
-	
-	<nav-bar></nav-bar>
 
-	<div class="background-dimmer"></div>
 
-	<jumbotron></jumbotron>
+	<div id="chart">
+		<div id="head">		
+			<h1>
+				Monthly Global Land-Surface Temperature
+			</h1>
+			<p><span>1753-2015</span></p>
+			<p>Degrees measured in Celcius</p>
+			<p>Variance relative to the 1951 - 1980 average of 8.66°</p>
 
-	<projects></projects>
+		</div>
 
-	<about></about>
+		<div id="temperatureChart">		
+		</div>
+		
 
-	
+	</div>
+
+
 
 </body>
 </html>

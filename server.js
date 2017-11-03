@@ -8,9 +8,6 @@ app.get('/', function(request, response) {
 	response.sendFile('public/index.html')
 });
 
-app.get('/about', function(request, response) {
-
-});
 
 app.listen(process.env.PORT || 3000, function() {
 	if (process.env.PORT) {
